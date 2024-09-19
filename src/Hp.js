@@ -108,14 +108,15 @@ function Hp() {
         <div className="left-section">
           <h1 className="constitution-text">Let's Learn Our Constitution</h1>
           <div className="container-section">
+          <Link to="/Games">
             <Container title="Gamified Learning" />
-
+          </Link>
             {/* Wrap Preamble Explorer container in Link */}
             <Link to="/preamble">
               <Container title="Preamble Explorer" />
             </Link>
-
-            <Container title="Constitution Trivia" />
+             <Link to="/reactmap">
+            <Container title="Constitution Trivia" /></Link>
             <Container title="Fundamental Rights and Duties" />
             <Container title="Constitution Trivia" />
             <Container title="Fundamental Rights and Duties" />
